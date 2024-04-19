@@ -11,6 +11,10 @@ qt_add_executable(appWord_Frequently_Count
     main.cpp
 )
 
+if(QT_KNOWN_POLICY_QTP0001)
+    qt_policy(SET QTP0001 OLD)
+endif()
+
 qt_add_qml_module(appWord_Frequently_Count
     URI Word_Frequently_Count
     VERSION 1.0
