@@ -53,6 +53,7 @@ void BinarySTree::editNode(string word,TreeNode* root){
 
 //take a sorted vector and convert it to a binary search tree
 void BinarySTree::fill_tree(vector<string,int> words){
+    
 }
 
 // this function return a vector of all words to display it 
