@@ -10,6 +10,8 @@ find_package(Qt6 6.2 COMPONENTS Quick REQUIRED)
 qt_add_executable(appWord_Frequently_Count
     src/main.cpp
     src/BST/binary_search_tree.cpp src/BST/binary_search_tree.hpp
+    src/Words.hpp
+    src/Words.cpp
 )
 
 if(QT_KNOWN_POLICY_QTP0001)
@@ -19,7 +21,8 @@ endif()
 qt_add_qml_module(appWord_Frequently_Count
     URI Word_Frequently_Count
     VERSION 1.0
-    QML_FILES qml/main.qml 
+    QML_FILES qml/main.qml
+
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
