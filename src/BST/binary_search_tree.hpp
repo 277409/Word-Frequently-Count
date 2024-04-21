@@ -28,6 +28,9 @@ public:
     void insert(string word,int counter);
     void insert(string word,int counter,TreeNode* root);
 
+    void search(string word);
+    void search(string word, TreeNode*root);
+
     void deleteNode(string word);
     void deleteNode(string word,TreeNode* root);
 

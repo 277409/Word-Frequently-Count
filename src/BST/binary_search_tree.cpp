@@ -47,12 +47,12 @@ void BinarySTree::editNode(string word){
 
 }
 void BinarySTree::editNode(string word,TreeNode* root){
-
+    // not you should handle if tree is empty
+    // if search if found (counter==1) delete, else counter-=1
 }
 
 //take a sorted vector and convert it to a binary search tree
 void BinarySTree::fill_tree(vector<string,int> words){
-
 }
 
 // this function return a vector of all words to display it 
