@@ -10,8 +10,8 @@ find_package(Qt6 6.2 COMPONENTS Quick REQUIRED)
 qt_add_executable(appWord_Frequently_Count
     src/main.cpp
     src/BST/binary_search_tree.cpp src/BST/binary_search_tree.hpp
-    src/Words.hpp
-    src/Words.cpp
+    src/manageWords/Words.hpp
+    src/manageWords/Words.cpp
 )
 
 if(QT_KNOWN_POLICY_QTP0001)
