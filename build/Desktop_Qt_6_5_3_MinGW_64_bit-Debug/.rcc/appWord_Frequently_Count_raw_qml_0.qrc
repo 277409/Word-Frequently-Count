@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/Word_Frequently_Count/">
-    <file alias="qml/main.qml">C:/Users/Dell/Word-Frequently-Count/qml/main.qml</file>
-  </qresource>
-</RCC>
-

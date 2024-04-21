@@ -1,4 +1,0 @@
-module Word_Frequently_Count
-typeinfo appWord_Frequently_Count.qmltypes
-prefer :/Word_Frequently_Count/
-
